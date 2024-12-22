@@ -1,0 +1,42 @@
+The wildfire prediction project addresses Canada's escalating fire challenges through advanced machine learning models. Developed by a team of researchers (Deep Jani, Svapnilsinh Solanki, and Charitarth Antala), the project aims to forecast wildfire occurrences, spread, and air quality impacts using comprehensive climate and ecological datasets.
+Key highlights include:
+
+Analyzing the unprecedented 2023 fire season that burned approximately 18.5 million hectares
+Utilizing multiple machine learning techniques (Random Forests, Support Vector Machines, XGBoost)
+Integrating climate data to provide early warnings and support resource allocation
+Assessing public health risks from wildfire smoke
+Developing predictive models to mitigate climate change impacts on ecosystems
+
+The project's significance lies in its innovative approach to understanding and predicting wildfire risks. It offers critical insights for fire management agencies and public health authorities. By combining technical innovation with practical application, the research contributes to building resilience against increasingly severe wildfire challenges in Canada.
+
+The project utilizes three main machine-learning models for wildfire prediction:
+
+Random Forest Regressor
+XGBoost Regressor
+Support Vector Machine (SVM) Regressor
+
+These models were chosen for their ability to handle complex, non-linear data and their proven performance in wildfire forecasting applications.
+
+The project incorporates several key features and techniques:
+
+Feature engineering:
+
+Creation of a 'SEASON' feature based on the date of burn (DOB)
+Development of a 'FIRE_RISK_INDEX' using temperature, wind speed, and relative humidity
+
+Data preprocessing:
+
+Handling missing values by filling with mean values
+Encoding categorical variables using one-hot encoding
+
+Model evaluation metrics:
+
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+Mean Absolute Error (MAE)
+R-squared (R2) score
+
+Cross-validation to ensure model robustness and generalizability
+
+Feature importance analysis to identify the most significant factors contributing to wildfire risks
+The project references the unprecedented 2023 wildfire season in Canada, which burned approximately 18.5 million hectares, as a case study highlighting the urgent need for improved predictive strategies
